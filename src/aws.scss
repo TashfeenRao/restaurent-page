@@ -1,5 +1,12 @@
+$color: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+nav {
+    background: $color;
+    background-blend-mode: multiply,multiply;
+}
 body {
-    background-color: royalblue;
+    background: $color; 
+ background-blend-mode: multiply,multiply;
 }
 .content {
     background-color: red;
@@ -8,4 +15,13 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.welcome {
+    text-align: center;
+    h1 {
+        font-size: 75px;
+        color: whitesmoke;
+    }
+
 }

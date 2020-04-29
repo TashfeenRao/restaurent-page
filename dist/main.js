@@ -478,7 +478,7 @@ module.exports = function (list, options) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "body {\n  background-color: royalblue;\n}\n\n.content {\n  background-color: red;\n}\n\n.menu-container {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n}", ""]);
+exports.push([module.i, "nav {\n  background: linear-gradient(to top, #09203f 0%, #537895 100%);\n  background-blend-mode: multiply, multiply;\n}\n\nbody {\n  background: linear-gradient(to top, #09203f 0%, #537895 100%);\n  background-blend-mode: multiply, multiply;\n}\n\n.content {\n  background-color: red;\n}\n\n.menu-container {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n}\n\n.welcome {\n  text-align: center;\n}\n.welcome h1 {\n  font-size: 75px;\n  color: whitesmoke;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -596,7 +596,7 @@ const landingPage = (function factory() {
     const nav = document.createElement('nav');
     nav.innerHTML = `
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" class="brand-logo">Joy Eat</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#" class="home">Home</a></li>
         <li><a href="#" class="menu1">Menu1</a></li>
@@ -609,6 +609,7 @@ const landingPage = (function factory() {
   }
   function welcome() {
     const div = document.createElement('div');
+    div.className = 'welcome';
     div.innerHTML = '<h1>Welcome to my Restaurant</h1>';
     content.append(div);
   }
