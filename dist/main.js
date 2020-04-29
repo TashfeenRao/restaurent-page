@@ -109,11 +109,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.onload = () => {
+  const nav = document.querySelector('.navbar-brand');
   const home = document.querySelector('.home');
   const menu1 = document.querySelector('.menu1');
   const menu2 = document.querySelector('.menu2');
-  const menu3 = document.querySelector('.menu2');
+  const menu3 = document.querySelector('.menu3');
 
+  nav.addEventListener('click', populatehome, { once: true });
   home.addEventListener('click', populatehome, { once: true });
   menu1.addEventListener('click', populateMenu1, { once: true });
   menu2.addEventListener('click', populateMenu2, { once: true });
@@ -124,8 +126,14 @@ function populatehome() {
   const content = document.querySelector('#content');
   content.removeChild(content.lastChild);
   _home__WEBPACK_IMPORTED_MODULE_1__["default"].welcome();
+  const nav = document.querySelector('.navbar-brand');
   const menu1 = document.querySelector('.menu1');
+  const menu2 = document.querySelector('.menu2');
+  const menu3 = document.querySelector('.menu3');
+  nav.addEventListener('click', populatehome, { once: true });
   menu1.addEventListener('click', populateMenu1, { once: true });
+  menu2.addEventListener('click', populateMenu2, { once: true });
+  menu3.addEventListener('click', populateMenu3, { once: true });
 }
 
 function populateMenu1() {
@@ -470,7 +478,7 @@ module.exports = function (list, options) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "body {\n  background-color: royalblue;\n}\n\n.content {\n  background-color: red;\n}\n\n.nav ul {\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.nav ul li {\n  font-size: 30px;\n}", ""]);
+exports.push([module.i, "body {\n  background-color: royalblue;\n}\n\n.content {\n  background-color: red;\n}", ""]);
 // Exports
 module.exports = exports;
 
