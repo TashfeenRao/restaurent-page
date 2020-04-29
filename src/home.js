@@ -3,28 +3,17 @@ const landingPage = (function factory() {
 
   function addNav() {
     const nav = document.createElement('nav');
-    nav.className = 'navbar navbar-expand-lg navbar-dark bg-primary';
-    nav.innerHTML = `<a class="navbar-brand" href="#">Restaurant</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link home" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu1" href="#">Menu 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu2" href="#">Menu 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu3" href="#">Menu 3</a>
-        </li>
+    nav.innerHTML = `
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#" class="menu1">Menu1</a></li>
+        <li><a href="#" class="menu2">Menu2</a></li>
+        <li><a href="#" class="menu3">Menu3</a></li>
       </ul>
-    </div>`;
+    </div>
+  `;
     content.append(nav);
   }
   function welcome() {

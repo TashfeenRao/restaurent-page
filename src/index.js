@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.onload = () => {
-  const nav = document.querySelector('.navbar-brand');
+  const nav = document.querySelector('.brand-logo');
   const home = document.querySelector('.home');
   const menu1 = document.querySelector('.menu1');
   const menu2 = document.querySelector('.menu2');
@@ -28,7 +28,7 @@ function populatehome() {
   const content = document.querySelector('#content');
   content.removeChild(content.lastChild);
   landingPage.welcome();
-  const nav = document.querySelector('.navbar-brand');
+  const nav = document.querySelector('.brand-logo');
   const menu1 = document.querySelector('.menu1');
   const menu2 = document.querySelector('.menu2');
   const menu3 = document.querySelector('.menu3');

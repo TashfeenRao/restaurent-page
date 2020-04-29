@@ -4,3 +4,8 @@ body {
 .content {
     background-color: red;
 }
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

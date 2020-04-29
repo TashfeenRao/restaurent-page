@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.onload = () => {
-  const nav = document.querySelector('.navbar-brand');
+  const nav = document.querySelector('.brand-logo');
   const home = document.querySelector('.home');
   const menu1 = document.querySelector('.menu1');
   const menu2 = document.querySelector('.menu2');
@@ -126,7 +126,7 @@ function populatehome() {
   const content = document.querySelector('#content');
   content.removeChild(content.lastChild);
   _home__WEBPACK_IMPORTED_MODULE_1__["default"].welcome();
-  const nav = document.querySelector('.navbar-brand');
+  const nav = document.querySelector('.brand-logo');
   const menu1 = document.querySelector('.menu1');
   const menu2 = document.querySelector('.menu2');
   const menu3 = document.querySelector('.menu3');
@@ -478,7 +478,7 @@ module.exports = function (list, options) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "body {\n  background-color: royalblue;\n}\n\n.content {\n  background-color: red;\n}", ""]);
+exports.push([module.i, "body {\n  background-color: royalblue;\n}\n\n.content {\n  background-color: red;\n}\n\n.menu-container {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -594,28 +594,17 @@ const landingPage = (function factory() {
 
   function addNav() {
     const nav = document.createElement('nav');
-    nav.className = 'navbar navbar-expand-lg navbar-dark bg-primary';
-    nav.innerHTML = `<a class="navbar-brand" href="#">Restaurant</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link home" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu1" href="#">Menu 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu2" href="#">Menu 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu3" href="#">Menu 3</a>
-        </li>
+    nav.innerHTML = `
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#" class="menu1">Menu1</a></li>
+        <li><a href="#" class="menu2">Menu2</a></li>
+        <li><a href="#" class="menu3">Menu3</a></li>
       </ul>
-    </div>`;
+    </div>
+  `;
     content.append(nav);
   }
   function welcome() {
@@ -635,7 +624,10 @@ const landingPage = (function factory() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
 /* eslint-disable no-use-before-define */
+
+
 const dish = (function factory() {
   const content = document.querySelector('#content');
   const container = document.createElement('div');
@@ -644,65 +636,136 @@ const dish = (function factory() {
     container.innerHTML = '';
     addBurgers();
     content.appendChild(container);
-
   }
 
   function addBurgers() {
+    const image1 = new Image();
+    image1.src = _pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
+    const row = document.createElement('div');
+    row.className = 'row';
     const firstItem = document.createElement('article');
-    firstItem.setAttribute('class', 'card');
-    firstItem.innerHTML = `
 
-        <h2>Barbeque Burger</h2>
-        <h4>$20.00</h4>
+    firstItem.innerHTML = `
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
       `;
 
     const secondItem = document.createElement('article');
-    secondItem.setAttribute('class', 'card');
     secondItem.innerHTML = `
-
-        <h2>Beef Burger</h2>
-        <h4>$30.00</h4>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
       `;
 
     const thirdItem = document.createElement('article');
-    thirdItem.setAttribute('class', 'card');
+    const row2 = document.createElement('div');
+    row2.className = 'row';
     thirdItem.innerHTML = `
-
-        <h2>Cheese Burger</h2>
-        <h4>$25.00</h4>
-      `;
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+        `;
 
     const fourthItem = document.createElement('article');
-    fourthItem.setAttribute('class', 'card');
-    fourthItem.innerHTML = `
-
-        <h2>Chicken Burger</h2>
-        <h4>$15.00</h4>
-      `;
+    fourthItem.innerHTML = ` <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <span class="card-title">Card Title</span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+    `;
 
     const fifthItem = document.createElement('article');
-    fifthItem.setAttribute('class', 'card');
     fifthItem.innerHTML = `
-
-        <h2>Hamburger</h2>
-        <h4>$22.00</h4>
-      `;
-
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+        `;
 
     const sixthItem = document.createElement('article');
-    sixthItem.setAttribute('class', 'card');
-    sixthItem.innerHTML = `
+    sixthItem.innerHTML = ` <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <span class="card-title">Card Title</span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+    `;
 
-        <h2>Veggie Burger</h2>
-        <h4>$10.00</h4>
-      `;
-
-    container.appendChild(firstItem);
-    container.appendChild(secondItem);
-    container.appendChild(thirdItem);
-    container.appendChild(fourthItem);
-    container.appendChild(fifthItem);
-    container.appendChild(sixthItem);
+    row.appendChild(firstItem);
+    row.appendChild(secondItem);
+    row.appendChild(thirdItem);
+    row2.appendChild(fourthItem);
+    row2.appendChild(fifthItem);
+    row2.appendChild(sixthItem);
+    container.appendChild(row);
+    container.appendChild(row2);
   }
   return { addMenu1 };
 }());
@@ -866,6 +929,14 @@ const dish3 = (function factory() {
 
 /* harmony default export */ __webpack_exports__["default"] = (dish3);
 
+
+/***/ }),
+/* 9 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "42df75e857a7c4ac9d1ca83de7c7c322.jpg");
 
 /***/ })
 /******/ ]);
