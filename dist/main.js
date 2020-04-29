@@ -650,14 +650,13 @@ const dish = (function factory() {
       <div class="card">
         <div class="card-image">
           <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
-          <span class="card-title">Card Title</span>
+          <span class="card-title">Burger</span>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+<h4>Price Rs 500</h4>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
+          <a href="#">Order Now</a>
         </div>
       </div>
     </div>
@@ -669,14 +668,13 @@ const dish = (function factory() {
       <div class="card">
         <div class="card-image">
           <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
-          <span class="card-title">Card Title</span>
+          <span class="card-title">Burger</span>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+<h4>Price Rs 500</h4>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
+          <a href="#">Order Now</a>
         </div>
       </div>
     </div>
@@ -690,14 +688,13 @@ const dish = (function factory() {
         <div class="card">
           <div class="card-image">
             <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
-            <span class="card-title">Card Title</span>
+            <span class="card-title">Burger</span>
           </div>
           <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+<h4>Price Rs 500</h4>
           </div>
           <div class="card-action">
-            <a href="#">This is a link</a>
+            <a href="#">Order Now</a>
           </div>
         </div>
       </div>
@@ -708,14 +705,13 @@ const dish = (function factory() {
     <div class="card">
       <div class="card-image">
         <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
-        <span class="card-title">Card Title</span>
+        <span class="card-title">Burger</span>
       </div>
       <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+<h4>Price Rs 500</h4>
       </div>
       <div class="card-action">
-        <a href="#">This is a link</a>
+        <a href="#">Order Now</a>
       </div>
     </div>
   </div>
@@ -727,14 +723,13 @@ const dish = (function factory() {
         <div class="card">
           <div class="card-image">
             <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
-            <span class="card-title">Card Title</span>
+            <span class="card-title">Burger</span>
           </div>
           <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+<h4>Price Rs 500</h4>
           </div>
           <div class="card-action">
-            <a href="#">This is a link</a>
+            <a href="#">Order Now</a>
           </div>
         </div>
       </div>
@@ -745,14 +740,13 @@ const dish = (function factory() {
     <div class="card">
       <div class="card-image">
         <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
-        <span class="card-title">Card Title</span>
+        <span class="card-title">Burger</span>
       </div>
       <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+<h4>Price Rs 500</h4>
       </div>
       <div class="card-action">
-        <a href="#">This is a link</a>
+        <a href="#">Order Now</a>
       </div>
     </div>
   </div>
