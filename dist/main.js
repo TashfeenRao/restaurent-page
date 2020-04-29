@@ -624,7 +624,7 @@ const landingPage = (function factory() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
+/* harmony import */ var _pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
 /* eslint-disable no-use-before-define */
 
 
@@ -640,7 +640,7 @@ const dish = (function factory() {
 
   function addBurgers() {
     const image1 = new Image();
-    image1.src = _pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
+    image1.src = _pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
     const row = document.createElement('div');
     row.className = 'row';
     const firstItem = document.createElement('article');
@@ -649,7 +649,7 @@ const dish = (function factory() {
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image">
-          <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
           <span class="card-title">Card Title</span>
         </div>
         <div class="card-content">
@@ -668,7 +668,7 @@ const dish = (function factory() {
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image">
-          <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
           <span class="card-title">Card Title</span>
         </div>
         <div class="card-content">
@@ -689,7 +689,7 @@ const dish = (function factory() {
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
             <span class="card-title">Card Title</span>
           </div>
           <div class="card-content">
@@ -707,7 +707,7 @@ const dish = (function factory() {
     fourthItem.innerHTML = ` <div class="col s12 m4">
     <div class="card">
       <div class="card-image">
-        <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
         <span class="card-title">Card Title</span>
       </div>
       <div class="card-content">
@@ -726,7 +726,7 @@ const dish = (function factory() {
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
             <span class="card-title">Card Title</span>
           </div>
           <div class="card-content">
@@ -744,7 +744,7 @@ const dish = (function factory() {
     sixthItem.innerHTML = ` <div class="col s12 m4">
     <div class="card">
       <div class="card-image">
-        <img src="${_pics_harley_davidson_1HZcJjdtc9g_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <img src="${_pics_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
         <span class="card-title">Card Title</span>
       </div>
       <div class="card-content">
@@ -779,7 +779,10 @@ const dish = (function factory() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
 /* eslint-disable no-use-before-define */
+
+
 const dish2 = (function factory() {
   const content = document.querySelector('#content');
   const container = document.createElement('div');
@@ -790,61 +793,133 @@ const dish2 = (function factory() {
     content.appendChild(container);
   }
   function addPizzas() {
+    const image1 = new Image();
+    image1.src = _pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
+    const row = document.createElement('div');
+    row.className = 'row';
     const firstItem = document.createElement('article');
-    firstItem.setAttribute('class', 'card');
+
     firstItem.innerHTML = `
-    
-            <h2>Barbeque Pizza</h2>
-            <h4>$20.00</h4>
-          `;
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="${_pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+      `;
 
     const secondItem = document.createElement('article');
-    secondItem.setAttribute('class', 'card');
     secondItem.innerHTML = `
-    
-            <h2>Beef Pizza</h2>
-            <h4>$30.00</h4>
-          `;
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="${_pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+      `;
 
     const thirdItem = document.createElement('article');
-    thirdItem.setAttribute('class', 'card');
+    const row2 = document.createElement('div');
+    row2.className = 'row';
     thirdItem.innerHTML = `
-    
-            <h2>Cheese Pizza</h2>
-            <h4>$25.00</h4>
-          `;
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="${_pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+        `;
 
     const fourthItem = document.createElement('article');
-    fourthItem.setAttribute('class', 'card');
-    fourthItem.innerHTML = `
-    
-            <h2>Chicken Pizza</h2>
-            <h4>$15.00</h4>
-          `;
+    fourthItem.innerHTML = ` <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="${_pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <span class="card-title">Card Title</span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+    `;
 
     const fifthItem = document.createElement('article');
-    fifthItem.setAttribute('class', 'card');
     fifthItem.innerHTML = `
-    
-            <h2>HamPizza</h2>
-            <h4>$22.00</h4>
-          `;
-
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="${_pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+        `;
 
     const sixthItem = document.createElement('article');
-    sixthItem.setAttribute('class', 'card');
-    sixthItem.innerHTML = `
-    
-            <h2>Veggie Pizza</h2>
-            <h4>$10.00</h4>
-          `;
+    sixthItem.innerHTML = ` <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="${_pics_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <span class="card-title">Card Title</span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+    `;
 
-    container.appendChild(firstItem);
-    container.appendChild(secondItem);
-    container.appendChild(thirdItem);
-    container.appendChild(fourthItem);
-    container.appendChild(fifthItem);
-    container.appendChild(sixthItem);
+    row.appendChild(firstItem);
+    row.appendChild(secondItem);
+    row.appendChild(thirdItem);
+    row2.appendChild(fourthItem);
+    row2.appendChild(fifthItem);
+    row2.appendChild(sixthItem);
+    container.appendChild(row);
+    container.appendChild(row2);
   }
   return { addMenu1, addPizzas };
 }());
@@ -858,6 +933,10 @@ const dish2 = (function factory() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
+/* eslint-disable no-use-before-define */
+
+
 const dish3 = (function factory() {
   const content = document.querySelector('#content');
   const container = document.createElement('div');
@@ -868,61 +947,127 @@ const dish3 = (function factory() {
     content.appendChild(container);
   }
   function addBeryanis() {
+    const image1 = new Image();
+    image1.src = _pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
+    const row = document.createElement('div');
+    row.className = 'row';
     const firstItem = document.createElement('article');
-    firstItem.setAttribute('class', 'card');
+
     firstItem.innerHTML = `
-      
-              <h2>Barbeque Beryani</h2>
-              <h4>$20.00</h4>
-            `;
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="${_pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <span class="card-title">Beryani</span>
+        </div>
+        <div class="card-content">
+          <h4>Price Rs 400.</h4>
+        </div>
+        <div class="card-action">
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+    </div>
+      `;
 
     const secondItem = document.createElement('article');
-    secondItem.setAttribute('class', 'card');
     secondItem.innerHTML = `
-      
-              <h2>Beef Beryani</h2>
-              <h4>$30.00</h4>
-            `;
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="${_pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+          <span class="card-title">Beryani</span>
+        </div>
+        <div class="card-content">
+          <h4>Price Rs 400.</h4>
+        </div>
+        <div class="card-action">
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+    </div>
+      `;
 
     const thirdItem = document.createElement('article');
-    thirdItem.setAttribute('class', 'card');
+    const row2 = document.createElement('div');
+    row2.className = 'row';
     thirdItem.innerHTML = `
-      
-              <h2>Cheese Beryani</h2>
-              <h4>$25.00</h4>
-            `;
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="${_pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <span class="card-title">Beryani</span>
+          </div>
+          <div class="card-content">
+            <h4>Price Rs 400.</h4>
+          </div>
+          <div class="card-action">
+            <a href="#">Order Now</a>
+          </div>
+        </div>
+      </div>
+        `;
 
     const fourthItem = document.createElement('article');
-    fourthItem.setAttribute('class', 'card');
-    fourthItem.innerHTML = `
-      
-              <h2>Chicken Beryani</h2>
-              <h4>$15.00</h4>
-            `;
+    fourthItem.innerHTML = ` <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="${_pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <span class="card-title">Beryani</span>
+      </div>
+      <div class="card-content">
+        <h4>Price Rs 400.</h4>
+      </div>
+      <div class="card-action">
+        <a href="#">Order Now</a>
+      </div>
+    </div>
+  </div>
+    `;
 
     const fifthItem = document.createElement('article');
-    fifthItem.setAttribute('class', 'card');
     fifthItem.innerHTML = `
-      
-              <h2>HamBeryani</h2>
-              <h4>$22.00</h4>
-            `;
-
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="${_pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+            <span class="card-title">Beryani</span>
+          </div>
+          <div class="card-content">
+            <h4>Price Rs 400.</h4>
+          </div>
+          <div class="card-action">
+            <a href="#">Order Now</a>
+          </div>
+        </div>
+      </div>
+        `;
 
     const sixthItem = document.createElement('article');
-    sixthItem.setAttribute('class', 'card');
-    sixthItem.innerHTML = `
-      
-              <h2>Veggie Beryani</h2>
-              <h4>$10.00</h4>
-            `;
+    sixthItem.innerHTML = ` <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="${_pics_rice_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}">
+        <span class="card-title">Beryani</span>
+      </div>
+      <div class="card-content">
+        <h4>Price Rs 400.</h4>
+      </div>
+      <div class="card-action">
+        <a href="#">Order Now</a>
+      </div>
+    </div>
+  </div>
+    `;
 
-    container.appendChild(firstItem);
-    container.appendChild(secondItem);
-    container.appendChild(thirdItem);
-    container.appendChild(fourthItem);
-    container.appendChild(fifthItem);
-    container.appendChild(sixthItem);
+    row.appendChild(firstItem);
+    row.appendChild(secondItem);
+    row.appendChild(thirdItem);
+    row2.appendChild(fourthItem);
+    row2.appendChild(fifthItem);
+    row2.appendChild(sixthItem);
+    container.appendChild(row);
+    container.appendChild(row2);
   }
   return { addMenu1, addBeryanis };
 }());
@@ -936,7 +1081,23 @@ const dish3 = (function factory() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "42df75e857a7c4ac9d1ca83de7c7c322.jpg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "1fbfbf98a2a240140129f7a7b264982b.jpg");
+
+/***/ }),
+/* 10 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "3b278cfebde8e7d8cfa630a22814d0e8.jpg");
+
+/***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "afcd5d7d72b808bacba2700d581a630f.jpg");
 
 /***/ })
 /******/ ]);

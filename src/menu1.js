@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import img1 from './pics/harley-davidson-1HZcJjdtc9g-unsplash.jpg';
+import img1 from './pics/burger.jpg';
 
 const dish = (function factory() {
   const content = document.querySelector('#content');
